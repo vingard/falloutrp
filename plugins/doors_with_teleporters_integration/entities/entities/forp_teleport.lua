@@ -62,6 +62,5 @@ if (SERVER) then
 		end
 		
 		SCHEMA:TeleportPlayer(self:GetUID(), client)
-		client.location = self:GetDestination()
 	end
 end
